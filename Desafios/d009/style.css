@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+iframe {
+    align-content: center;
+}
+
+body {
+    background-color: black;
+}
+
+iframe {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+

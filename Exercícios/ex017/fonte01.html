@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas 
+            cm, mm, in (polegada), px, pt (ponto), pc (paica)
+            OBS: Ponto e paica (pt, pc) são medidas da tipografia, de papel.
+        
+            Medidas Relativas 
+            em (medida relativa ao tamanho atual da fonte), ex (tamanho da altura x da fonte), rem (relativo a fonte que está configurada no body), vw (largura da viewport, largura da imagem do monitor), vh (altura da viewport), %
+
+            OBS: Recomendação da W3C é utilizar px e em.
+
+            16px geralmente = 1em
+            */
+            /* weight = peso */
+
+            font-size: 1em;
+            
+            h1 {
+                /*font-family: 'Work Sans', sans-serif;
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;*/
+
+                /* shorthand font:
+                - font-style -> font-weight -> font-size -> font-family */
+                font: italic bolder 3em 'Work Sans', sans-serif;
+            }
+
+            h2 {
+                font: bold 2em 'Work Sans';
+            }
+
+
+
+            
+
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur exercitationem praesentium nostrum quibusdam dolorem sapiente, dignissimos quis et dolores vel saepe illum soluta cum qui hic tempore natus. Magni?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas qui ea, laboriosam, ipsa sunt dolorum ut recusandae mollitia at id perferendis esse culpa? Porro sed sit veritatis pariatur dolores velit?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magni hic corporis soluta necessitatibus dolores, ratione illo ipsum minus molestias numquam esse optio exercitationem quibusdam! Voluptas doloribus maiores facere aut.</p>
+
+</body>
+</html>
