@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'porsche';
+    src: url(fonts/porsche.ttf);
+}
+:root {
+    --fonte-porsche: 
+
+    --cor1: #C7C7C7;
+    --cor2: #F01C00;
+    --cor3: #C53421;
+    --cor4: #9B4034;
+    --cor5: #703F38;
+    --cor6: #46312E;
+    --cor7: #332B2B;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header {
+    height: 100vh;
+    background-image: url(imagens/porsche-911.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .logo-letra {
+        color: white;
+        font-family: 'porsche';
+        font-size: 2.1em;
+        font-weight: lighter;
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.503);
+    }
+}
+
